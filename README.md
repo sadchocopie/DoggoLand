@@ -1,2 +1,0 @@
-# DoggoLand
-Created with CodeSandbox

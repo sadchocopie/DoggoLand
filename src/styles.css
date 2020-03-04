@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#list {
+  padding: 0em;
+  margin: auto;
+  width: 80%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+li {
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+}
+
+select {
+  font-size: 16px;
+  font-weight: 500;
+  color: #444;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.banner {
+  padding: 10px 0;
+  width: 100%;
+}
